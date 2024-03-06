@@ -29,7 +29,7 @@ export default function Pokedex(props) {
       </div>
 
       {loading ? (
-        <div className="hold">Carregando mais pokemons... </div>
+        <div className="hold">Cargando... </div>
       ) : (
         <div className="pokedex-grid">
           {pokemons &&

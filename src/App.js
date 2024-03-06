@@ -45,7 +45,6 @@ function App() {
 
   useEffect(() => {
     fetchPokemons();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const updateFavoritePokemons = (name) => {
@@ -90,7 +89,7 @@ function App() {
         <Navbar />
         <Searchbar onSearch={onSearchHandler} />
         {notFound ? (
-          <h1>Não achamos esse Pokemon :\</h1>
+          <h1>No se encontró ese Pokemon:</h1>
         ) : (
           <Pokedex
             pokemons={pokemons}
