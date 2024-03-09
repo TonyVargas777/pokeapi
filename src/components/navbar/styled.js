@@ -14,4 +14,8 @@ export const Container = styled.div`
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+
+  .navbar-img{
+    witdh: 50%
+  }
 ` 
