@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <Container>
       <div>
-        <img alt="pokeapi-logo" src={"./titulo_pokemon.jpeg"} className="navbar-img" style={{ width: '50vw' }}/>
+        <img alt="pokeapi-logo" src={"./titulo_pokemon.jpeg"} className="navbar-img" style={{ width: '30vw', border: '40px groove blue'}}/>
       </div>
       <div>❤️ / {favoritePokemons.length}</div>
     </Container>

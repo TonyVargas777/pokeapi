@@ -38,6 +38,14 @@ export default function Pokedex(props) {
             })}
         </div>
       )}
+      <div className="header">
+        <Pagination
+          page={page + 1}
+          totalPages={totalPages}
+          onLeftClick={onLeftClickHandler}
+          onRightClick={onRightClickHandler}
+        />
+      </div>
     </Container>
   );
 }
